@@ -1,0 +1,88 @@
+{
+	code: "arrow",
+	class: "ItemArrow",
+	variantgroups: [
+		{ code: "fletching", states: ["feather", "poisoned" , "fire" ] },
+		{ code: "metal", states: ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron" ] }
+	],
+	maxstacksize: 64,
+	texture: { base: "item/tool/arrow/{metal}",
+			overlays: [ "item/tool/fletching/{fletching}"]	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	attributesByType: {
+		"arrow-feather-flint": {
+			damage: -0.5
+		},
+		"arrow-feather-copper": {
+			damage: 0
+		},
+		"arrow-feather-tinbronze": {
+			damage: 1
+		},
+		"arrow-feather-bismuthbronze": {
+			damage: 1
+		},
+		"arrow-feather-blackbronze": {
+			damage: 1.5
+		},
+		"arrow-feather-iron": {
+			damage: 2
+		},
+		"arrow-feather-gold": {
+			damage: 1
+		},
+		"arrow-feather-silver": {
+			damage: 1
+		},
+		
+		"arrow-fire-flint": {
+			damage: 1.5
+		},
+		"arrow-fire-copper": {
+			damage: 2
+		},
+		"arrow-fire-tinbronze": {
+			damage: 3
+		},
+		"arrow-fire-bismuthbronze": {
+			damage: 3
+		},
+		"arrow-fire-blackbronze": {
+			damage: 3.5
+		},
+		"arrow-fire-iron": {
+			damage: 4
+		},
+		"arrow-fire-gold": {
+			damage: 3
+		},
+		"arrow-fire-silver": {
+			damage: 3
+		},
+		
+		"arrow-poisoned-flint": {
+			damage: 1.5
+		},
+		"arrow-poisoned-copper": {
+			damage: 2
+		},
+		"arrow-poisoned-tinbronze": {
+			damage: 3
+		},
+		"arrow-poisoned-bismuthbronze": {
+			damage: 3
+		},
+		"arrow-poisoned-blackbronze": {
+			damage: 3.5
+		},
+		"arrow-poisoned-iron": {
+			damage: 4
+		},
+		"arrow-poisoned-gold": {
+			damage: 3
+		},
+		"arrow-poisoned-silver": {
+			damage: 3
+		},
+	}
+}

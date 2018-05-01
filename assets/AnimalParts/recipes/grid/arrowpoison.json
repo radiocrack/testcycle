@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "KF",
+	ingredients: {
+		"K": { type: "item", code: "game:arrow-feather-*", name:"metal"},
+		"F": { type: "block", code: "game:mushroom*" }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "game:arrow-poisoned-{metal}", quantity: 1 }}

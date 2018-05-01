@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "KFT",
+	ingredients: {
+		"K": { type: "item", code: "game:arrow-feather-*", name:"metal"},
+		"F": { type: "item", code: "game:fat" },
+		"T": { type: "block", code: "game:torch-up" }
+	},
+	width: 3,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "game:arrow-fire-{metal}", quantity: 1 }}

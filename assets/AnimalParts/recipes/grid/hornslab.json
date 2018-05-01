@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "HK",
+	ingredients: {
+		"K": { type: "item", code: "game:knife*", isTool: true  },
+		"H": { type: "item", code: "sinew-horn" }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "sinew-hornslab", quantity: 4  }
+}

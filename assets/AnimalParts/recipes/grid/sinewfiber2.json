@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "HS",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"S": { type: "item", code: "sinew-strip" }
+	},
+	name: "sinew fiber",
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "sinew-fibers", quantity: 4 }
+}

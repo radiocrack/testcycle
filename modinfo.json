@@ -1,0 +1,10 @@
+
+{
+	"type": "content",
+	"name": "animal parts",
+	"description" : "Animals drop a carcass which is processed into parts with a knife",
+	"website": "",
+	"author": "Elwood",
+	"version": "0.0.2",
+	"gameversions": [ "1.5.2.2" ]
+}

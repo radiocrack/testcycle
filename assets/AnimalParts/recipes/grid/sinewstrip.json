@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "KT",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true  },
+		"T": { type: "item", code: "sinew-tendon" }
+	},
+	name: "sinew fiber",
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "sinew-strip", quantity: 3  }
+}

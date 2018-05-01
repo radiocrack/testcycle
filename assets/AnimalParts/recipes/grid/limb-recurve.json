@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "GL_	HBS",
+	ingredients: {
+		"H": { type: "item", code: "sinew-hornslab"},
+		"S": { type: "item", code: "sinew-strip"},
+		"G": { type: "item", code: "sinew-glue"},
+		"L": { type: "item", code: "game:hide*"},
+		"B": { type: "item", code: "limb-composite"}
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "limb-recurve", quantity: 1  }
+}

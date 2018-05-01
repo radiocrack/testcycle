@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "WK",
+	ingredients: {
+		"K": { type: "item", code: "game:knife*", isTool: true  },
+		"W": { type: "item", code: "game:stick" }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "limb-carved", quantity: 1  }
+}

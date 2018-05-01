@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "G__	HWS",
+	ingredients: {
+		"G": { type: "item", code: "sinew-glue" },
+		"H": { type: "item", code: "sinew-hornslab" },
+		"W": { type: "item", code: "limb-carved" },
+		"S": { type: "item", code: "sinew-strip" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "limb-composite", quantity: 1  }
+}
